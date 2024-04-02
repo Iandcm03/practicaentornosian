@@ -7,7 +7,7 @@ public abstract class Escuderia {
 	private int victorias;
 	private int mundiales;
 	
-	public Escuderia(String nombre, String sede) {
+	public Escuderia(String nombre, String sede, int anyoFundacion, int victorias, int mundiales) {
 		super();
 		this.nombre = nombre;
 		this.sede = sede;

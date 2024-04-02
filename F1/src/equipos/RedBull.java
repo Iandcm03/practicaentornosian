@@ -5,12 +5,13 @@ public class RedBull extends Escuderia{
 	private String motor;
 	private String directorTecnico;
 	
-	public RedBull(String nombre, String sede, String motor, String directorTecnico) {
-		super(nombre, sede);
+	public RedBull(String nombre, String sede, int anyoFundacion, int victorias, int mundiales, String motor,
+			String directorTecnico) {
+		super(nombre, sede, anyoFundacion, victorias, mundiales);
 		this.motor = motor;
 		this.directorTecnico = directorTecnico;
 	}
-	
+
 	public String getMotor() {
 		return motor;
 	}
