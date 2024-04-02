@@ -28,6 +28,12 @@ public class Ferrari extends Escuderia{
 		this.directorTecnico = directorTecnico;
 	}
 
+	// Método para actualizar tanto el motor como el director técnico de la escudería
+    public void actualizarInformacion(String nuevoMotor, String nuevoDirectorTecnico) {
+        motor = nuevoMotor;
+        directorTecnico = nuevoDirectorTecnico;
+    }
+	
 	@Override
 	public String toString() {
 		return "Ferrari [motor=" + motor + ", directorTecnico=" + directorTecnico + ", toString()=" + super.toString()
